@@ -14,7 +14,7 @@ const init = () => {
                         <h3>${restaurant.name}</h3>
                         <p>${restaurant.desc.length < 20 ? restaurant.desc : restaurant.desc.slice(0, 20) + '...'}</p>
                         <p>${restaurant.phone}</p>
-                        <p>${restaurant.address.number}, ${restaurant.address.street}, ${restaurant.address.city}, 
+                        <p>${restaurant.address.number} ${restaurant.address.street}, ${restaurant.address.city}, 
                         ${restaurant.address.country}</p>
                     </td>`
                 , '')
